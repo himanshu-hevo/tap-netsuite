@@ -1,3 +1,4 @@
+
 # tap-netsuite
 
 [Singer](https://www.singer.io/) tap that extracts data from a [NetSuite](https://www.netsuite.com/) database and produces JSON-formatted data following the [Singer spec](https://github.com/singer-io/getting-started/blob/master/SPEC.md).
@@ -57,3 +58,19 @@ To sync data, select fields in the `properties.json` output and run the tap.
 ```
 > tap-netsuite --config config.json --properties properties.json [--state state.json]
 ```
+
+
+
+
+
+
+## Commands:
+ -  pip install --upgrade --force-reinstall .
+
+
+ - add --no-cache postgresql-libs
+ - add --no-cache --virtual .build-deps gcc musl-dev postgresql-dev
+ - apk add --no-cache --virtual .build-deps gcc musl-dev postgresql-dev 
+
+ - (tap-netsuite) /tmp/tap-netsuite # tap-netsuite --config config.json --discover > discovery.log
+ - tap-netsuite --config config.json --properties /tmp/env/tap-netsuite/lib/python3.8/site-packages/tap_netsuite/netsuite/schemas/object_definition.json

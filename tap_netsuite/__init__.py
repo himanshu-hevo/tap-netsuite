@@ -230,6 +230,7 @@ def do_discover(ns):
                     'reason': 'No replication keys found from the NetSuite API'})
 
         mdata = metadata.write(mdata, (), 'table-key-properties', key_properties)
+        mdata = metadata.write(mdata, (), 'selected', True)
 
         schema = {
             'type': 'object',

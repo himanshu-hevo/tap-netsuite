@@ -1,0 +1,413 @@
+{
+    "streams": [
+        {
+            "stream": "Employees",
+            "tap_stream_id": "Employees",
+            "schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "links": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "currency": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "custentity_2663_payment_method": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "datecreated": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "department": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "email": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "entityid": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "firstname": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "gender": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "giveaccess": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "hiredate": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "i9verified": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "id": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "initials": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "isinactive": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "issalesrep": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "issupportrep": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "lastmodifieddate": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "lastname": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "rolesforsearch": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "subsidiary": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "supervisor": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "title": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "workcalendar": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    }
+                }
+            },
+            "metadata": [
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "links"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "currency"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "custentity_2663_payment_method"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "datecreated"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "department"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "email"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "entityid"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "firstname"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "gender"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "giveaccess"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "hiredate"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "i9verified"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "id"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "initials"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "isinactive"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "issalesrep"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "issupportrep"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "lastmodifieddate"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "lastname"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "rolesforsearch"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "subsidiary"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "supervisor"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "title"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "workcalendar"
+                    ],
+                    "metadata": {
+                        "inclusion": "available",
+                        "selected-by-default": true
+                    }
+                },
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "forced-replication-method": {
+                            "replication-method": "FULL_TABLE",
+                            "reason": "No replication keys found from the NetSuite API"
+                        },
+                        "table-key-properties": [
+                            "Id"
+                        ],
+                        "selected": true
+                    }
+                }
+            ]
+        }
+    ]
+}
